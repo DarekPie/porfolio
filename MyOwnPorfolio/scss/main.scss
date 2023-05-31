@@ -1,8 +1,7 @@
 @import "configs";
 @import 'utilities';
 @import 'item_grid';
-// Import Media Queries 
-@import 'media';
+
 
   
 //General Styles
@@ -369,7 +368,7 @@ img {
 
 #main-footer{
   background: $dark-color;
-  color:#fff;
+  color:#fff; 
   height: 5rem;
 
   .footer-content{
@@ -377,21 +376,21 @@ img {
     justify-content: space-between;
     height: 5rem;
     align-items: center;
-           
+
     a{
       text-decoration: solid;
       background: $light-color;
     }
 
-    .social .fab {
+
+    .social .fab{
       margin-right: 1rem;
-      border: 2px #fff solid; 
+      border: 2px #fff solid;
       border-radius: 50%;
       height: 20px;
       width: 20px;
       text-align: center;
       padding: 0.5rem;
-      // z-index: auto;
 
       &:hover{
         background-color: $main-color;
@@ -400,3 +399,7 @@ img {
 
   }
 }
+
+
+// Import Media Queries 
+@import 'media';
